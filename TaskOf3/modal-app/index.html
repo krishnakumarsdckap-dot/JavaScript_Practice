@@ -32,10 +32,11 @@
   <script>
     let btn = document.querySelector(".modal-btn")
     const disp = document.querySelector(".modal-overlay")
+
     btn.addEventListener("click", () => {
       disp.style.visibility = "visible";
       disp.style.zIndex = "1";
-      document.getElementsByClassName("modal-container")[0].style.paddingLeft = "15%"
+      document.getElementsByClassName("modal-container")[0].style.justifyContent = "center"
     })
     let btn2 = document.querySelector(".close-btn")
     btn2.addEventListener("click", () => {
